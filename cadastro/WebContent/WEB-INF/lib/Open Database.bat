@@ -1,0 +1,1 @@
+java -cp %~dp0/hsqldb.jar org.hsqldb.server.Server --dbname.0 sistema --database.0 file:sistema

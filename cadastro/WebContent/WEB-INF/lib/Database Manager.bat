@@ -1,0 +1,1 @@
+java -cp %~dp0/hsqldb.jar org.hsqldb.util.DatabaseManager
