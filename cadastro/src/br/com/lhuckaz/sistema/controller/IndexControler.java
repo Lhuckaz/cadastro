@@ -15,7 +15,7 @@ import br.com.lhuckaz.sistema.model.Usuario;
 
 //@WebServlet(urlPatterns = { "/index.jsp" })
 @SuppressWarnings("serial")
-@WebServlet(urlPatterns = "/login")
+@WebServlet(urlPatterns = "login")
 public class IndexControler extends HttpServlet {
 
 	@Override
