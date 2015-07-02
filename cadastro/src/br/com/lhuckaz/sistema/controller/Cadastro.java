@@ -34,7 +34,7 @@ public class Cadastro extends HttpServlet {
 			req.getSession().setAttribute("msg", "Cadastro efetuado");
 			res.sendRedirect(req.getContextPath() + "/");
 		} else {
-			req.getSession().setAttribute("msg", "Cadastro não efetuado. Usuário ja existe");
+			req.getSession().setAttribute("msg", "Cadastro não efetuado. Usuário já existe");
 			res.sendRedirect(req.getContextPath() + "/");
 		}
 	}
